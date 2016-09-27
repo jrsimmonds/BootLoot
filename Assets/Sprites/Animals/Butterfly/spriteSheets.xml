@@ -1,0 +1,53 @@
+<!DOCTYPE spritesheets>
+<spritesheets>
+ <spritesheet resolution="custom" name="sheet_Butterfly" filename="spriteSheets/sheet_Butterfly-custom.png">
+  <sprite scaleY="1" rect="3459,3669,637,427" offsetX="-460" offsetY="-196" name="Butterfly-00017.png" scaleX="1"/>
+  <sprite scaleY="1" rect="2906,3669,553,427" offsetX="-374" offsetY="-190" name="Butterfly-00002.png" scaleX="1"/>
+  <sprite scaleY="1" rect="2357,3669,549,427" offsetX="-370" offsetY="-190" name="Butterfly-00001.png" scaleX="1"/>
+  <sprite scaleY="1" rect="1998,3669,359,427" offsetX="-177" offsetY="-198" name="Butterfly-00034.png" scaleX="1"/>
+  <sprite scaleY="1" rect="1639,3669,359,427" offsetX="-177" offsetY="-200" name="Butterfly-00033.png" scaleX="1"/>
+  <sprite scaleY="1" rect="1281,3669,358,427" offsetX="-179" offsetY="-190" name="Butterfly-00048.png" scaleX="1"/>
+  <sprite scaleY="1" rect="627,3669,654,413" offsetX="-459" offsetY="-176" name="Butterfly-00015.png" scaleX="1"/>
+  <sprite scaleY="1" rect="161,3669,466,413" offsetX="-267" offsetY="-168" name="Butterfly-00047.png" scaleX="1"/>
+  <sprite scaleY="1" rect="3444,3257,652,412" offsetX="-457" offsetY="-175" name="Butterfly-00016.png" scaleX="1"/>
+  <sprite scaleY="1" rect="2844,3257,600,384" offsetX="-401" offsetY="-140" name="Butterfly-00004.png" scaleX="1"/>
+  <sprite scaleY="1" rect="2263,3257,581,384" offsetX="-382" offsetY="-140" name="Butterfly-00003.png" scaleX="1"/>
+  <sprite scaleY="1" rect="1817,3257,446,384" offsetX="-249" offsetY="-146" name="Butterfly-00018.png" scaleX="1"/>
+  <sprite scaleY="1" rect="1371,3257,446,384" offsetX="-249" offsetY="-146" name="Butterfly-00019.png" scaleX="1"/>
+  <sprite scaleY="1" rect="925,3257,446,384" offsetX="-244" offsetY="-152" name="Butterfly-00032.png" scaleX="1"/>
+  <sprite scaleY="1" rect="479,3257,446,383" offsetX="-249" offsetY="-146" name="Butterfly-00020.png" scaleX="1"/>
+  <sprite scaleY="1" rect="33,3257,446,383" offsetX="-245" offsetY="-144" name="Butterfly-00036.png" scaleX="1"/>
+  <sprite scaleY="1" rect="3650,2874,446,383" offsetX="-244" offsetY="-153" name="Butterfly-00031.png" scaleX="1"/>
+  <sprite scaleY="1" rect="3205,2874,445,383" offsetX="-244" offsetY="-146" name="Butterfly-00035.png" scaleX="1"/>
+  <sprite scaleY="1" rect="2550,2874,655,315" offsetX="-460" offsetY="-82" name="Butterfly-00014.png" scaleX="1"/>
+  <sprite scaleY="1" rect="1896,2874,654,315" offsetX="-459" offsetY="-83" name="Butterfly-00013.png" scaleX="1"/>
+  <sprite scaleY="1" rect="1419,2874,477,315" offsetX="-275" offsetY="-87" name="Butterfly-00030.png" scaleX="1"/>
+  <sprite scaleY="1" rect="942,2874,477,315" offsetX="-277" offsetY="-73" name="Butterfly-00045.png" scaleX="1"/>
+  <sprite scaleY="1" rect="466,2874,476,315" offsetX="-275" offsetY="-87" name="Butterfly-00029.png" scaleX="1"/>
+  <sprite scaleY="1" rect="3,2874,463,294" offsetX="-265" offsetY="-82" name="Butterfly-00021.png" scaleX="1"/>
+  <sprite scaleY="1" rect="3620,2559,476,315" offsetX="-277" offsetY="-73" name="Butterfly-00046.png" scaleX="1"/>
+  <sprite scaleY="1" rect="3012,2559,608,293" offsetX="-409" offsetY="-75" name="Butterfly-00005.png" scaleX="1"/>
+  <sprite scaleY="1" rect="2413,2559,599,293" offsetX="-401" offsetY="-76" name="Butterfly-00006.png" scaleX="1"/>
+  <sprite scaleY="1" rect="1951,2559,462,293" offsetX="-264" offsetY="-82" name="Butterfly-00022.png" scaleX="1"/>
+  <sprite scaleY="1" rect="1489,2559,462,293" offsetX="-261" offsetY="-77" name="Butterfly-00037.png" scaleX="1"/>
+  <sprite scaleY="1" rect="1027,2559,462,293" offsetX="-261" offsetY="-75" name="Butterfly-00038.png" scaleX="1"/>
+  <sprite scaleY="1" rect="400,2559,627,292" offsetX="-423" offsetY="-36" name="Butterfly-00010.png" scaleX="1"/>
+  <sprite scaleY="1" rect="3471,2268,625,291" offsetX="-421" offsetY="-35" name="Butterfly-00009.png" scaleX="1"/>
+  <sprite scaleY="1" rect="2975,2268,496,289" offsetX="-287" offsetY="-22" name="Butterfly-00041.png" scaleX="1"/>
+  <sprite scaleY="1" rect="2478,2268,497,286" offsetX="-288" offsetY="-20" name="Butterfly-00042.png" scaleX="1"/>
+  <sprite scaleY="1" rect="1981,2268,497,277" offsetX="-288" offsetY="-23" name="Butterfly-00026.png" scaleX="1"/>
+  <sprite scaleY="1" rect="1484,2268,497,277" offsetX="-289" offsetY="-22" name="Butterfly-00025.png" scaleX="1"/>
+  <sprite scaleY="1" rect="838,2268,646,251" offsetX="-440" offsetY="-36" name="Butterfly-00011.png" scaleX="1"/>
+  <sprite scaleY="1" rect="193,2268,645,250" offsetX="-439" offsetY="-35" name="Butterfly-00012.png" scaleX="1"/>
+  <sprite scaleY="1" rect="3561,2023,535,245" offsetX="-324" offsetY="-19" name="Butterfly-00043.png" scaleX="1"/>
+  <sprite scaleY="1" rect="3032,2023,529,244" offsetX="-301" offsetY="-26" name="Butterfly-00039.png" scaleX="1"/>
+  <sprite scaleY="1" rect="2497,2023,535,243" offsetX="-324" offsetY="-18" name="Butterfly-00044.png" scaleX="1"/>
+  <sprite scaleY="1" rect="1967,2023,530,243" offsetX="-302" offsetY="-23" name="Butterfly-00040.png" scaleX="1"/>
+  <sprite scaleY="1" rect="1331,2023,636,241" offsetX="-413" offsetY="-31" name="Butterfly-00008.png" scaleX="1"/>
+  <sprite scaleY="1" rect="690,2023,641,236" offsetX="-417" offsetY="-23" name="Butterfly-00007.png" scaleX="1"/>
+  <sprite scaleY="1" rect="155,2023,535,236" offsetX="-324" offsetY="-23" name="Butterfly-00027.png" scaleX="1"/>
+  <sprite scaleY="1" rect="3561,1787,535,236" offsetX="-323" offsetY="-24" name="Butterfly-00028.png" scaleX="1"/>
+  <sprite scaleY="1" rect="3032,1787,529,230" offsetX="-303" offsetY="-22" name="Butterfly-00024.png" scaleX="1"/>
+  <sprite scaleY="1" rect="2503,1787,529,230" offsetX="-304" offsetY="-21" name="Butterfly-00023.png" scaleX="1"/>
+ </spritesheet>
+</spritesheets>

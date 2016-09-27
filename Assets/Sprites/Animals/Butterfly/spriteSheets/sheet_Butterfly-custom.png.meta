@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: 3a067850a3c10ac46a8962f87bb6b35b
+timeCreated: 1469572540
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sheet_Butterfly-custom_0
+    21300002: sheet_Butterfly-custom_1
+    21300004: sheet_Butterfly-custom_2
+    21300006: sheet_Butterfly-custom_3
+    21300008: sheet_Butterfly-custom_4
+    21300010: sheet_Butterfly-custom_5
+    21300012: sheet_Butterfly-custom_6
+    21300014: sheet_Butterfly-custom_7
+    21300016: sheet_Butterfly-custom_8
+    21300018: sheet_Butterfly-custom_9
+    21300020: sheet_Butterfly-custom_10
+    21300022: sheet_Butterfly-custom_11
+    21300024: sheet_Butterfly-custom_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sheet_Butterfly-custom_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 3659
+        width: 346
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sheet_Butterfly-custom_1
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 3667
+        width: 345
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sheet_Butterfly-custom_2
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 3685
+        width: 402
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sheet_Butterfly-custom_3
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 3679
+        width: 405
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sheet_Butterfly-custom_4
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 3691
+        width: 461
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sheet_Butterfly-custom_5
+      rect:
+        serializedVersion: 2
+        x: 2389
+        y: 3725
+        width: 459
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sheet_Butterfly-custom_6
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 3759
+        width: 515
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sheet_Butterfly-custom_7
+      rect:
+        serializedVersion: 2
+        x: 3517
+        y: 3741
+        width: 515
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sheet_Butterfly-custom_8
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 3159
+        width: 484
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sheet_Butterfly-custom_9
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 3149
+        width: 484
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sheet_Butterfly-custom_10
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 3189
+        width: 530
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sheet_Butterfly-custom_11
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 3176
+        width: 530
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: sheet_Butterfly-custom_12
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 3135
+        width: 459
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
