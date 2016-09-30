@@ -45,9 +45,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\IgnoreCollisoion.cs" />
+     <Compile Include="Assets\Scripts\ParallaxLayer.cs" />
+     <Compile Include="Assets\Scripts\ParallaxOption.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
-     <Compile Include="Assets\Scripts\firstScript.cs" />
+     <Compile Include="Assets\Scripts\cameraFollow.cs" />
+     <Compile Include="Assets\Scripts\collisonTrigger.cs" />
      <Compile Include="Assets\Scripts\globals.cs" />
+     <Compile Include="Assets\Scripts\playerResets.cs" />
      <None Include="Assets\Sprites\Animals\Butterfly\spriteSheets.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

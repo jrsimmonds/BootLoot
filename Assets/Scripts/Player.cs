@@ -31,7 +31,7 @@ public class Player : MonoBehaviour {
 
     [SerializeField]
     private bool kick;
-    private bool kicking;
+	public bool kicking;
 
     [SerializeField]
     private float jumpForce;
@@ -50,6 +50,7 @@ public class Player : MonoBehaviour {
     void Update()
     {
         HandleInput();
+
     }
 	
 	// Update is called once per frame
@@ -85,8 +86,12 @@ public class Player : MonoBehaviour {
 				MyRigidbody.velocity = new Vector2 (horizontal * movementSpeed, MyRigidbody.velocity.y);
 			}
 
+			if (kicking && isGrounded) {
+				MyRigidbody.velocity = new Vector2 (0, 0);
+			}
+
 			//JUMP CODE
-			if (moving && isGrounded && jump) {
+			if (!kicking && moving && isGrounded && jump) {
 				if (isGrounded && jump) {
 					isGrounded = false;
 					if (facingRight) {
@@ -97,7 +102,7 @@ public class Player : MonoBehaviour {
 						MyAnimator.SetTrigger ("Jump");
 					}
 				}
-			} else if (!moving && isGrounded && jump) {
+			} else if (!kicking && !moving && isGrounded && jump) {
 				MyRigidbody.AddForce (new Vector2 (0, jumpForce));
 				MyAnimator.SetTrigger ("Jump");
 			}
@@ -105,7 +110,7 @@ public class Player : MonoBehaviour {
 
 			//KICK CODE
 			if (kick) {
-				MyAnimator.SetBool ("Kick", true);
+				MyAnimator.SetTrigger ("Kick");
 			}
 			/////KICK CODE FINISHED
 
@@ -123,8 +128,7 @@ public class Player : MonoBehaviour {
         if (Input.GetButtonDown("Fire2"))
         {
             kick = true;
-            kicking = true;
-            //MyRigidbody.velocity = Vector2.zero;
+			kicking = true;
         }
 
         if (Input.GetKeyDown(KeyCode.H))
@@ -132,6 +136,8 @@ public class Player : MonoBehaviour {
             MyAnimator.SetTrigger("Hurt");
             GameObject.Find("Globals").GetComponent<globals>().health = GameObject.Find("Globals").GetComponent<globals>().health - 1;
         }
+
+
     }
 
     private void Flip(float horizontal)
@@ -234,10 +240,4 @@ public class Player : MonoBehaviour {
 		yield return new WaitForSeconds (0.25f);
 		GameObject.Find ("Globals").GetComponent<globals> ().playerHurtCooldown = false;
 	}
-	
-
-    public void KickReset() {
-        MyAnimator.SetBool("Kick", false);
-        kicking = false;
-    }
 }
