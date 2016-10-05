@@ -52,6 +52,8 @@
      <Compile Include="Assets\Scripts\cameraFollow.cs" />
      <Compile Include="Assets\Scripts\collisonTrigger.cs" />
      <Compile Include="Assets\Scripts\globals.cs" />
+     <Compile Include="Assets\Scripts\highJump.cs" />
+     <Compile Include="Assets\Scripts\movingPlat.cs" />
      <Compile Include="Assets\Scripts\playerResets.cs" />
      <None Include="Assets\Sprites\Animals\Butterfly\spriteSheets.xml" />
  <Reference Include="UnityEngine.UI">

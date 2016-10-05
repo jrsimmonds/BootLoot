@@ -3,6 +3,12 @@ using System.Collections;
 
 public class Player : MonoBehaviour {
 
+	[SerializeField]
+	private Vector3 spawnPoint;
+
+	[SerializeField]
+	private GameObject mPlat1;
+
     public Rigidbody2D MyRigidbody { get; set; }
 
     [SerializeField]
@@ -240,4 +246,25 @@ public class Player : MonoBehaviour {
 		yield return new WaitForSeconds (0.25f);
 		GameObject.Find ("Globals").GetComponent<globals> ().playerHurtCooldown = false;
 	}
+
+	void OnTriggerEnter2D(Collider2D other) {
+		//if (other.tag == "movingPlat1") {
+		//	gameObject.transform.parent = mPlat1.transform;
+		//}
+
+		if (other.tag == "fallDeath") {
+			gameObject.transform.position = spawnPoint;
+		}
+
+		if (other.tag == "feet") {
+			MyRigidbody.AddForce (new Vector2 (0,85000));
+			Debug.Log ("should be jumping high");
+		}
+	}
+
+	//void OnTriggerExit2D(Collider2D other) {
+	//	if (other.tag == "movingPlat1") {
+	//		transform.parent = null;
+	//	}
+	//}
 }

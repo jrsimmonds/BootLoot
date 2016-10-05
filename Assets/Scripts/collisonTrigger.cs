@@ -7,10 +7,14 @@ public class collisonTrigger : MonoBehaviour {
 		private BoxCollider2D platformCollider;
 		
 		[SerializeField]
-		private BoxCollider2D platformTrigger;
+		private BoxCollider2D platformTrigger1;
+		[SerializeField]
+		private BoxCollider2D platformTrigger2;
+		[SerializeField]
+		private BoxCollider2D platformTrigger3;
 
 		[SerializeField]
-		private BoxCollider2D playerCollider;
+		private Collider2D playerCollider;
 
 		void Update() {
 		
